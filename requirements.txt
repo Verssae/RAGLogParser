@@ -1,0 +1,8 @@
+pandas
+numpy
+scikit-learn
+nltk
+qdrant-client[fastembed]
+openai
+python-dotenv
+rich
