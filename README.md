@@ -54,6 +54,13 @@ Additionally, you will need to run a Qdrant vector database. You can do so with 
 sudo docker run -d --privileged -p 6333:6333 qdrant/qdrant
 ```
 
+To run this project, you need to set up your OpenAI API key. Create a `.env` file in the root directory of the project and add the following line:
+
+```bash
+OPENAI_API_KEY=<your_openai_api_key>
+```
+Replace <your_openai_api_key> with your actual OpenAI API key.
+
 ## How to Run
 
 ### Running the Experiment
